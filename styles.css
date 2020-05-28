@@ -1,5 +1,84 @@
-header, footer {
-    background: red;
-    padding: 10px;
-    border: 3px solid black;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  background-color: peachpuff;
+}
+
+.news {
+  border: 3px black dotted;
+  padding: 10px;
+}
+
+.content-wrapper {
+  position: relative;
+  width: 200px;
+  margin: 5px;
+  flex-basis: 300px;
+}
+
+.content-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: #eee;
+  background: linear-gradient(rgba(238, 238, 238, 0.201), #000);
+  transition: all 250ms ease;
+  opacity: 0;
+}
+
+.homepage-div {
+  display: block;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+footer {
+  background-color: rgb(254, 166, 88);
+  padding: 5px;
+}
+
+.homepage-description {
+  font-family: fantasy;
+}
+
+.header-text {
+  font-family: fantasy;
+  font-size: 24px;
+  text-align: center;
+}
+
+nav {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  opacity: 70%;
+}
+
+.beginnings {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
