@@ -22,6 +22,7 @@ body {
 .news {
   border: 3px black dotted;
   padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .content-wrapper {
@@ -79,6 +80,7 @@ nav {
   opacity: 70%;
 }
 
-.beginnings {
+.beginnings, .bios {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
